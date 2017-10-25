@@ -35,8 +35,8 @@ namespace Algorithm.Sort
             Contract.Assert(src != null);
             Contract.Assert(src.Count > i);
             Contract.Assert(src.Count > j);
-            Contract.Assert(i > 0);
-            Contract.Assert(j > 0);
+            Contract.Assert(i >= 0);
+            Contract.Assert(j >= 0);
             Contract.Assert(i != j);
 
             var tmp = src[i];
