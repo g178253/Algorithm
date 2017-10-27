@@ -7,7 +7,7 @@ namespace Algorithm.Sort
     /// 选择排序。
     /// </summary>
     /// <typeparam name="T">排序元素的类型。</typeparam>
-    public sealed class SelectSort<T> : SortBase<T> where T : IComparable
+    public sealed class SelectionSort<T> : SortBase<T> where T : IComparable
     {
         /// <summary>
         /// 对指定的集合进行排序。
