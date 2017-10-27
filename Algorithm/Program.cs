@@ -11,7 +11,8 @@ namespace Algorithm
             var col = GetUnorderedCollection();
             Console.WriteLine("排序前集合有序：" + IsSorted(col));
 
-            var sort = new BubbleSort<Int32>();
+            //var sort = new BubbleSort<Int32>();
+            var sort = new SelectSort<Int32>();
             sort.Sort(col);
             Console.WriteLine("排序后集合有序：" + IsSorted(col));
 
